@@ -1,0 +1,109 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#icons{
+    display: flex;
+    justify-content: center;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    display:block
+}
+h1, p, h2{
+    text-align: center;
+}
+.fa-twitter {
+    font-size: 30px;
+    --fa-border-radius: 100%;
+    width: 30px;
+    margin-left: 20px;
+}
+.fa-facebook-f {
+    font-size: 30px;
+    --fa-border-radius: 100%;
+    width: 25px;
+    padding-left: 10px;
+}
+#form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    margin-bottom: 25px;
+    width: 400px;
+    height: 30px;
+    border: 0px solid;
+    background-color: whitesmoke;
+}
+#submit{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    background-color: tomato;
+    border: 0px solid;
+    border-radius: 20px 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 106, 107);
+}
+h1{
+    font-family: Arial;
+    margin-top: -70px;
+    margin-bottom: 70px;
+    font-size: 70px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-top: -20px;
+}
+#description{
+    color: white;
+    font-size: 30px;
+    width: 80%;
+    margin-top: -30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2, #description{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#login, #info{
+    height: 100vh;
+}
+a{
+    font-family: italic;
+    font-size: 20px;
+    margin-left: 27%;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+#account{
+    margin-top: 70px;
+    font-family: Verdana;
+    color: rgba(0, 0, 0, 0.7);
+}
+#password{
+    margin-bottom: 40px;
+}
+
+
